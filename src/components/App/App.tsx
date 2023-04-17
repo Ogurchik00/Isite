@@ -1,10 +1,11 @@
-import React from 'react';
-import './App.css';
+import './App.scss';
+import Background from '../Background/Background';
 
 function App() {
+
   return (
     <div className="App">
-      Hello, World!
+      <Background/>
     </div>
   );
 }
