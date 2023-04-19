@@ -8,7 +8,8 @@ const Background = () => {
 	return (
 		<img src= { backgroundImg } alt="#"
 			style={
-				{ height: windowInnerHeight,
+				{ 
+					height: windowInnerHeight,
 					width: windowInnerWidth
 				}	
 			}
