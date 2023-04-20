@@ -7,20 +7,22 @@ const Protagonist = () => {
 	const windowInnerHeight = document.documentElement.clientHeight;
 
   return (
-    <div className = { 'c' }>
-      <img src= {
-					protagonistImg
-        } alt="" 
-				style={
-					{
-						width: windowInnerWidth,
-						height:windowInnerHeight / 1.5,
-						marginTop: windowInnerHeight / 100 * 15
-					}
+		<div className='wrapper'>
+			<img 
+			src= {
+				protagonistImg
+      } 
+			alt="#" 
+			style={
+				{
+					width: windowInnerWidth / 100 * 80,
+					height:windowInnerHeight / 1.5,
+					marginTop: windowInnerHeight / 100 * 15,
 				}
-			/>
-    </div>
-    )
+			}
+		/>
+ </div>
+  )
 }
 
 export default Protagonist;
