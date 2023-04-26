@@ -1,20 +1,55 @@
 .Navigation {
-  width: 100%;
+	width: 100%;
 	height: 80px;
+	position: absolute;
+	bottom: 0;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	position: absolute;
-	bottom: 0;
 	
 }
 
-.navigationLink {
+.navList {
 	width: 100%;
-	max-width: 48px;
+	display: flex;
+	justify-content: space-around;
 }
 
-.navigationLink img {
+.navList li {
 	width: 100%;
-	max-width: 50px;
+	max-width: 55px;
+	display: block;
+	position: relative;
+	float: left;
+}
+
+.navList li img{
+	width: 100%;
+}
+
+.navList li ul {
+	text-align: center;
+}
+
+.navList li ul {
+	margin-bottom: 10px;
+}
+
+.navList li ul img{
+	width: 65%;
+	
+}
+
+.navList li a {
+	display: block;
+}
+
+.navList li ul {
+	position: absolute;
+	left: 0;
+	top: -85px;
+}
+
+.navList li ul li {
+	width: 100%;
 }

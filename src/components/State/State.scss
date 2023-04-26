@@ -1,6 +1,13 @@
 .State {
 	width: 100%;
-	height: 50px;
-	background-color: aqua;
-	opacity: 50%;   
+	height: 60px;
+	display: flex;
+	justify-content: end;
+	align-items: center;   
+}
+
+.State img {
+	position: absolute;
+	margin-right: 10px;
+	width: 44px;
 }

@@ -10,7 +10,6 @@ function App() {
     <div className="App">
       <Background />
       <div className='main'>
-      <State/>
       <Protagonist />
       <Navigation/>
       </div>

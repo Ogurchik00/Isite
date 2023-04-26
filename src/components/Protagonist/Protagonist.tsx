@@ -17,7 +17,7 @@ const Protagonist = () => {
 				{
 					width: windowInnerWidth / 100 * 80,
 					height:windowInnerHeight / 1.5,
-					marginTop: windowInnerHeight / 100 * 10,
+					marginTop: windowInnerHeight / 100 * 11
 				}
 			}
 		/>
